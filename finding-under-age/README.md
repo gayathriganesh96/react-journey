@@ -1,3 +1,8 @@
+#Add simple JavaScript exercise to display under/over age based on constant value
+
+Create a JavaScript file with a simple exercise that checks a constant variable named 'age'. If the value of 'age' is less than 18, display 'under age', otherwise display 'over age'. This exercise helps reinforce basic conditional statements and variable usage in JavaScript.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
