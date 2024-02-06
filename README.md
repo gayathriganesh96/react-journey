@@ -1,6 +1,3 @@
-Sure, here's a sample description for your GitHub repository titled "My React Journey":
-
----
 
 # My React Journey
 
