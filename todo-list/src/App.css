@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+}
+
+.addTask button {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    padding: 7px 25px;
+    border-radius: 5px;
+    border: 1px #6495ed solid;
+    background: no-repeat;
+}
+
+.addTask {
+    text-align: center;
+    background: cornflowerblue;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addTask input {
+    width: 500px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.list {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.list li {
+    font-size: 17px;
+    text-transform: capitalize;
+    padding: 0 3px;
+    line-height: 30px;
+}
+
+.list button {
+    margin-left: 10px;
+    background: #efefef;
+    border: 1px solid #efefef;
+    font-weight: 300;
+}

@@ -36,16 +36,24 @@ function App() {
   return (
     <div className="App">
       <div className="addTask">
-        <input value={newTask} onChange={handleChange} required />
-        <button onClick={addTask}>Add Task</button>
+        <div style={{ position: "relative", display: "inline-block" }}>
+          <input value={newTask} onChange={handleChange} required />
+          <button onClick={addTask}>Add Task</button>
+        </div>
       </div>
       <div className="list">
-        {todoList.map((task) => ( // Added unique key prop and fixed syntax
-          <div>
-            <h1>{task.taskName}</h1>
-            <button onClick={() => deleteTask(task.id)}>x</button>
-          </div>
-        ))}
+        <ul>
+          {todoList.map((task) => ( // Added unique key prop and fixed syntax        
+            <li>
+              {task.taskName}
+              <button onClick={() => deleteTask(task.id)}>Delete</button>
+            </li>
+            //   <h1>{task.taskName}</h1>
+            //   <button onClick={() => deleteTask(task.id)}>x</button>
+            // </div>
+          ))}
+        </ul>
+
       </div>
     </div>
   );
